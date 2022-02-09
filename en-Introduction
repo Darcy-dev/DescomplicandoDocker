@@ -1,0 +1,91 @@
+---
+title: Introdução
+---
+
+# Preface
+
+If you are a developer, you probably have heard about Docker by now:
+Docker is the ideal platform to run applications in containers. Fine,
+but what are those containers? Containers are a lightweight
+virtualization technique providing us with lots of possibilities: thanks
+to them, we can ship applications faster; we can easily implement CI/CD
+(continuous integration and continuous delivery); we can set up
+development environments faster than ever; we can ensure parity between
+those development environments and our production servers; and much
+more. If you write code, if you deploy code, if you operate code, then I
+promise that containers are going to make your life easier.
+
+But containers have been around for *decades*, and Docker was only
+released in 2013. So what's the big deal? Why is everybody so excited
+about Docker, if the technology behind it is more than ten years old?
+
+Because the main innovation of Docker is not the technology. The main
+innovation of Docker is to make this technology available to every
+developer and sysadmin, very easily, without having to spend years of
+practice to become an expert, and without requiring to develop tons of
+custom tools.
+
+I will share a secret with you: the really important thing is not Docker
+and containers. What is really important is to improve the quality of
+our software, reduce our development and deployment costs, release
+better, more reliable code, faster. It turns out that Docker is an
+insanely efficient way to achieve those goals. That's why it is so
+popular.
+
+This book will teach you all you need to know to get started with
+Docker, and use it to build, ship, and run your applications. It will be
+your guide in the world of containers, and on the path to ship code
+better than you ever did before.
+
+***Jérôme Petazzoni***
+
+Docker Tinkerer Extraordinaire
+
+# About the book
+
+The purpose of this book is to help you build **containerized** environments with
+the tool that is revolutionizing technology companies 
+around the world: let's learn and play with the sensational Docker.!
+
+In a light and totally practical way, we will learn what Docker is and how to create 
+a Docker cluster with several running containers! Always in a practical way, we will cover important topics
+so that you can manage environments that use or intend to use Docker.
+
+We will even learn how to set up custom dockerfiles for building container images, as well as how to better manage them.
+
+We will also see in practice how to use the **Docker Machine** to create Docker hosts, either on-premises or in the cloud. 
+We will create a cluster using Swarm and learn how to scale our environment using Compose.
+
+In this second edition we have added many new features, like 'docker secret' and 'docker stack', and updated almost all the rest of
+the book to make it more up-to-date and didactic. We have added more practical examples, 
+so that your experience can be even more enjoyable and profitable.
+
+
+# Introduction
+
+If you are a developer who has always dreamed of being able to reproduce the
+production environment on your machine or the application you have designed and
+developed can run in production easily, with the same "binary" that
+that was used in the testing moments\...
+
+\...Imagine being able to install and test several applications quickly and simulate a complete environment
+,much lighter and smarter than the virtual machines
+in a matter of minutes..
+
+If you are a system administrator who has always dreamed of no longer having to
+to prepare your servers to support thousands of different applications, made in different languages, with different libraries, 
+with different versions (Whew)...
+
+\...Imagine saving millions of hours in new server installations, application upgrades, deploys, overnight service calls because
+of services that "failed" and could not run on other servers due to various incompatibilities..
+
+If you need to scale your environment in a matter of minutes to support a demand that has caught
+you by surprise after a campaign from your company's marketing department...\...
+
+If you are a manager and are worried about the datacenter bill at the end of the month 
+because of the amount of resources needed to make your environment work....\....
+
+And even when you have all the computing resources to support the demand, 
+if you realize that most of the time your resources are idle and your team is struggling to equalize them...\...
+
+\...So this book and Docker were made for you! Good reading, enjoy!
